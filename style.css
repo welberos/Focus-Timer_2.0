@@ -235,7 +235,8 @@ color: var(--bg-color) ;
 
 @media (max-width:850px) {
 
-  body {
+  body,
+  body.dark-mode {
     display: grid;
     gap: 10rem;
     margin: 3rem 0 3rem;
